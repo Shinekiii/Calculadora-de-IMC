@@ -1,12 +1,12 @@
 body {
   background-image: radial-gradient(circle, #2b2b2b, #171717, #080808);
-
-}
-
-.borda {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.borda {
 
   background-color: #272627;
 
@@ -14,9 +14,6 @@ body {
   height: 600px;
 
   border-radius: 15px;
-
-  margin-left: 381px;
-  margin-top: -550px;
 }
 
 .form {
@@ -27,7 +24,7 @@ body {
   justify-content: center;
   flex-direction: column;
 
-  margin-top: -50px;
+  margin-top: -666px;
 
 }
 
@@ -117,4 +114,19 @@ body {
 
 .imc {
   color: #169848;
+}
+
+@media screen and (max-width: 800px) {
+  .peso {
+    width: 300px;
+  }
+
+  .altura {
+    width: 300px;
+  }
+
+  .borda {
+    margin-top: 45px;
+  }
+
 }
